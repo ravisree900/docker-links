@@ -1,0 +1,16 @@
+---
+version: '3.8'
+sevices:
+   mydb: 
+      image: postgres
+      environment:
+         POSTGRES_PASSWORD: mvbrothers
+         POSTGRES_USER: myuser
+         POSTGRES_DB: mydb
+   myadminer: 
+      image: adminer
+      ports: 
+         - 9090:8080
+      links: 
+         - mydb:postgres
+...
