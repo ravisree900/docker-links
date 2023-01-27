@@ -1,0 +1,4 @@
+FROM nginx
+MAINTAINER ravindra
+
+EXPOSE 90

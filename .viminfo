@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1674644233,,"wq"
+|2,0,1674804432,,"wq"
 :q!
-|2,0,1674628932,,"q!"
+|2,0,1674801637,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -25,237 +25,364 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	RUN sh /tmp/script.sh
+|3,1,1,1,1,0,1674801789,"RUN sh /tmp/script.sh"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1674663340," "
 
 # File marks:
-'0  16  2  ~/dockercompose/postgres.yml
-|4,48,16,2,1674644233,"~/dockercompose/postgres.yml"
-'1  16  2  ~/dockercompose/postgres.yml
-|4,49,16,2,1674643884,"~/dockercompose/postgres.yml"
-'2  19  2  ~/dockercompose/lamp.yml
-|4,50,19,2,1674643478,"~/dockercompose/lamp.yml"
-'3  19  20  ~/dockercompose/ci_cd.yml
-|4,51,19,20,1674642894,"~/dockercompose/ci_cd.yml"
-'4  1  0  ~/dockercompose/sql_wordpress.yml
-|4,52,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
-'5  14  2  ~/sql_wordpress.yml
-|4,53,14,2,1674641897,"~/sql_wordpress.yml"
-'6  1  0  /var/jenkins_home/secrets/initialAdminPassword
-|4,54,1,0,1674628932,"/var/jenkins_home/secrets/initialAdminPassword"
-'7  1  0  /var/jenkins_home/secrets/initialAdminPassword
-|4,55,1,0,1674628876,"/var/jenkins_home/secrets/initialAdminPassword"
+'0  4  8  ~/dockerimages/image_nginx
+|4,48,4,8,1674804432,"~/dockerimages/image_nginx"
+'1  4  11  ~/dockerfiles/image_volumes
+|4,49,4,11,1674804150,"~/dockerfiles/image_volumes"
+'2  5  10  ~/dockerfiles/image_ansible
+|4,50,5,10,1674803272,"~/dockerfiles/image_ansible"
+'3  5  22  ~/dockerfiles/image_ansible
+|4,51,5,22,1674803226,"~/dockerfiles/image_ansible"
+'4  6  29  ~/dockerfiles/image_ansible
+|4,52,6,29,1674803122,"~/dockerfiles/image_ansible"
+'5  6  29  ~/dockerfiles/image_ansible
+|4,53,6,29,1674803122,"~/dockerfiles/image_ansible"
+'6  6  29  ~/dockerfiles/image_ansible
+|4,54,6,29,1674803122,"~/dockerfiles/image_ansible"
+'7  6  29  ~/dockerfiles/image_ansible
+|4,55,6,29,1674803122,"~/dockerfiles/image_ansible"
+'8  1  0  ~/dockerfiles/file_jenkins
+|4,56,1,0,1674802723,"~/dockerfiles/file_jenkins"
+'9  4  61  ~/dockerfiles/file_jenkins
+|4,57,4,61,1674802672,"~/dockerfiles/file_jenkins"
 
 # Jumplist (newest first):
--'  16  2  ~/dockercompose/postgres.yml
-|4,39,16,2,1674644233,"~/dockercompose/postgres.yml"
--'  16  2  ~/dockercompose/postgres.yml
-|4,39,16,2,1674643884,"~/dockercompose/postgres.yml"
--'  1  0  ~/dockercompose/postgres.yml
-|4,39,1,0,1674643684,"~/dockercompose/postgres.yml"
--'  1  0  ~/dockercompose/postgres.yml
-|4,39,1,0,1674643684,"~/dockercompose/postgres.yml"
--'  19  2  ~/dockercompose/lamp.yml
-|4,39,19,2,1674643478,"~/dockercompose/lamp.yml"
--'  19  2  ~/dockercompose/lamp.yml
-|4,39,19,2,1674643478,"~/dockercompose/lamp.yml"
--'  19  2  ~/dockercompose/lamp.yml
-|4,39,19,2,1674643478,"~/dockercompose/lamp.yml"
--'  19  2  ~/dockercompose/lamp.yml
-|4,39,19,2,1674643478,"~/dockercompose/lamp.yml"
--'  1  0  ~/dockercompose/lamp.yml
-|4,39,1,0,1674643267,"~/dockercompose/lamp.yml"
--'  1  0  ~/dockercompose/lamp.yml
-|4,39,1,0,1674643267,"~/dockercompose/lamp.yml"
--'  1  0  ~/dockercompose/lamp.yml
-|4,39,1,0,1674643267,"~/dockercompose/lamp.yml"
--'  1  0  ~/dockercompose/lamp.yml
-|4,39,1,0,1674643267,"~/dockercompose/lamp.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  19  20  ~/dockercompose/ci_cd.yml
-|4,39,19,20,1674642894,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/ci_cd.yml
-|4,39,1,0,1674642666,"~/dockercompose/ci_cd.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  1  0  ~/dockercompose/sql_wordpress.yml
-|4,39,1,0,1674642623,"~/dockercompose/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  14  2  ~/sql_wordpress.yml
-|4,39,14,2,1674641897,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
--'  1  0  ~/sql_wordpress.yml
-|4,39,1,0,1674641444,"~/sql_wordpress.yml"
+-'  4  8  ~/dockerimages/image_nginx
+|4,39,4,8,1674804432,"~/dockerimages/image_nginx"
+-'  1  0  ~/dockerimages/image_nginx
+|4,39,1,0,1674804402,"~/dockerimages/image_nginx"
+-'  4  11  ~/dockerfiles/image_volumes
+|4,39,4,11,1674804150,"~/dockerfiles/image_volumes"
+-'  4  11  ~/dockerfiles/image_volumes
+|4,39,4,11,1674804150,"~/dockerfiles/image_volumes"
+-'  1  0  ~/dockerfiles/image_volumes
+|4,39,1,0,1674804110,"~/dockerfiles/image_volumes"
+-'  1  0  ~/dockerfiles/image_volumes
+|4,39,1,0,1674804110,"~/dockerfiles/image_volumes"
+-'  5  10  ~/dockerfiles/image_ansible
+|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
+-'  5  10  ~/dockerfiles/image_ansible
+|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
+-'  5  10  ~/dockerfiles/image_ansible
+|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
+-'  5  10  ~/dockerfiles/image_ansible
+|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
+-'  5  22  ~/dockerfiles/image_ansible
+|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
+-'  5  22  ~/dockerfiles/image_ansible
+|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
+-'  5  22  ~/dockerfiles/image_ansible
+|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
+-'  5  22  ~/dockerfiles/image_ansible
+|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
+-'  6  29  ~/dockerfiles/image_ansible
+|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/image_ansible
+|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  1  0  ~/dockerfiles/file_jenkins
+|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  4  61  ~/dockerfiles/file_jenkins
+|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
 
 # History of marks within files (newest to oldest):
 
-> ~/dockercompose/postgres.yml
-	*	1674644232	0
+> ~/dockerimages/image_nginx
+	*	1674804430	0
+	"	4	8
+	^	4	9
+	.	4	8
+	+	4	8
+
+> ~/dockerfiles/image_volumes
+	*	1674804149	0
+	"	4	11
+	^	4	12
+	.	4	11
+	+	4	11
+
+> ~/dockerfiles/image_ansible
+	*	1674803270	0
+	"	5	10
+	^	5	11
+	.	5	10
+	+	6	29
+	+	5	10
+
+> ~/dockerfiles/file_jenkins
+	*	1674802720	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	4	3
+	+	1	10
+	+	2	18
+	+	4	61
+	+	2	0
+
+> ~/dockerfiles/file_script
+	*	1674802088	0
+	"	7	0
+	^	7	0
+	.	6	0
+	+	5	19
+	+	8	0
+	+	6	0
+
+> ~/dockerfiles/script.sh
+	*	1674801336	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	2	3
+	+	4	23
+	+	5	0
+	+	4	0
+	+	5	2
+	+	4	1
+	+	7	3
+	+	4	0
+
+> ~/dockerfiles/apt-get
+	*	1674800969	0
+	"	1	0
+
+> ~/dockerfiles/file_ubuntu
+	*	1674798208	0
+	"	8	26
+	^	8	27
+	.	8	26
+	+	8	26
+
+> ~/dockerfiles/dockerfile
+	*	1674797935	0
+	"	1	0
+
+> ~/dockerfile
+	*	1674797822	0
+	"	7	27
+	^	7	28
+	.	7	27
+	+	3	11
+	+	2	10
+	+	3	0
+	+	2	10
+	+	7	27
+
+> ~/dockercompose/adminer.yml
+	*	1674664077	0
 	"	16	2
 	^	16	3
 	.	16	2
-	+	7	38
-	+	10	14
 	+	16	2
+
+> ~/dockercompose/selenium.yml
+	*	1674664048	0
+	"	22	28
+	^	22	29
+	.	22	28
+	+	9	11
+	+	16	12
+	+	23	2
+	+	8	24
+	+	15	27
+	+	22	28
+
+> ~/dockercompose/postgres.yml
+	*	1674663896	0
+	"	17	0
+	^	17	0
+	.	16	3
+	+	1	90
+	+	1	160
+	+	1	249
+	+	1	246
+	+	1	9
+	+	1	34
+	+	1	0
+	+	1	95
+	+	9	14
+	+	14	20
+	+	8	9
+	+	16	3
+
+> ~/postgres.yml
+	*	1674644996	0
+	"	17	0
+	^	17	0
+	.	17	0
+	+	17	0
 
 > ~/dockercompose/lamp.yml
 	*	1674643477	0

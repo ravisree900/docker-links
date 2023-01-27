@@ -14,4 +14,3 @@ Services:
       links:
          - mydb:mysql
 ...
-

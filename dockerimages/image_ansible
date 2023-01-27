@@ -1,0 +1,6 @@
+FROM ubuntu
+MAINTAINER ravindra
+
+RUN apt-get update
+RUN apt-get install -y software-properties-common
+RUN apt-get install -y ansible

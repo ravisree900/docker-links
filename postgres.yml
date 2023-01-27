@@ -1,6 +1,6 @@
 ---
 version: '3.8'
-Services:
+sevices:
    mydb:
       image: postgres
       environment:
@@ -12,6 +12,6 @@ Services:
       ports:
          - 9090:8080
       links:
-         - mydb:mysql
+         - mydb:postgres
 ...
 

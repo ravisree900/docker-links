@@ -264,3 +264,302 @@ docker images
 docker system prune -af
 docker compose -f postgres.yml up -d
 exit
+ls
+git add .
+git commit -m "b"
+git push
+rm dockercompose1
+ls 
+rm -rf dockercompose1
+ls
+cd dockercompose
+docker compose -f postgres.yml up -d
+ls
+cd postgres.yml
+vim postgres.yml
+cd ..
+vim postgres.yml
+docker compose -f postgres.yml up -d
+exit
+ls
+cd dockercompose
+ls
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim postgres.yml
+vim selenium.yml
+docker compose -f selenium.yml up -b
+docker compose -f selenium.yml up -d
+docker container ls
+docker images
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim postgres.yml
+docker compose -f postgres.yml up -d
+rm -rf vim postgres.yml
+ls
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim adminer.yml
+docker compose -f adminer.yml up -d
+docker-compose -f adminer.yml up -d
+docker compose -f adminer.yml up -d
+vim selenium.yml
+vim adminer.yml
+vim selenium.yml
+vim adminer.yml
+cd ..
+mkdir dockervolumes
+ls
+cd dockervolumes
+mkdir /data
+docker run --name u1
+docker run --name u1 -it -v /data ubuntu
+docker inspect u1
+docker rm -f u1
+docker container ls
+docker rm -f $(docker ps -aq)
+docker container ls
+cd /var/lib/docker/volumes/38ec7b90a2a575c2c1daa169a22dccbe22bc1bdc8c9f534ae084399349c52fd2/_data
+ls
+cd ..
+cd
+docker images
+docker system prune -af
+ls
+cd dockervolumes
+ls
+docker run --name c1
+docker run --name c1 -it -v /data centos
+docker run --name c2 -it --volumes-from c1 centos
+docker run --name c3 -it --volumes-from c2 centos
+docker attach c1
+docker attach c2
+docker inspect c1
+docker rm -f c1 c2 c3
+cd /var/lib/docker/volumes/712a8091112adb2114165da6e99d1658567175ac2698dce24b55cc5a6cd0c898/_data
+ls
+cd
+cd dockervolumes
+docker volume ls
+docker volume prune -f
+docker images
+docker system prune -af
+docker container ls
+docker volume create myvolume
+ls
+docker inspect myvolume
+cd /var/lib/docker/volumes/myvolume/_data
+ls
+touch file1 file2
+ls
+cd
+cd dockervolumes
+ls
+docker run --name u1 -it -v myvolume:/tmp ubuntu
+docker rm -f u1
+docker volume ls
+docker inspect myvolume
+cd /var/lib/docker/volumes/myvolume/_data
+ls
+cd
+docker images
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker container ls
+docker volumes ls
+cd dockervolumes
+docker volumes ls
+docker volume prune -af
+docker volume prune -f
+cd ..
+docker ps -a
+docker rm -f u1
+docker run --name u1 -it ubuntu
+docker commit u1 myubuntu
+docker rm -f u1
+docker images
+docker run --name u1 -it mybuntu
+git --version
+mvn --version
+docker images
+docker system prune -af
+docker container ls
+docker ps -a
+docker volume ls
+exit
+ls
+docker compose -f postgres.yml up -d
+docker ps -a
+docker images
+docker container ls
+docker volume ls
+clear
+vim dockerfile
+docker build -t ubuntu
+vim dockerfile
+docker build -t ubuntu
+vim dockerfile
+docker build -t nginx .
+vim dockerfile
+docker build -t ubuntu .
+docker images
+docker container ls
+docker system prune -af
+docker images
+vim dockerfile
+docker build -t mynginx .
+docker images
+docker build -t mynginx .
+docker images
+docker system prune -af
+vim dockerfile
+docker built -t myubuntu
+docker build -t myubuntu
+docker build -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu
+docker images
+ls -l
+docker system prune -af
+docker ps -a
+ls
+vim dockerfile
+mkdir dockerfiles
+ls
+cd dockerfiles
+ls
+cd ..
+cp dockerfile dockerfiles
+cd dockerfiles
+ls
+cd ..
+ls
+rm -rf dockerfile
+ls
+cd dockerfiles
+ls
+vim dockerfile
+mv dockerfile file_ubuntu
+ls
+docker build -f file_ubuntu -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu
+vim file_ubuntu
+docker build -f file_ubuntu -t myubuntu .
+docker build --no-cache -t myubuntu .
+docker build --no-cache -t myubuntu 
+docker build -f file_ubuntu --no-cache -t myubuntu 
+docker build -f --no-cache -f file_ubuntu -t myubuntu 
+docker images
+docker system prune -af
+docker images
+clear
+vim script.sh
+ls
+sh script.sh
+git --version
+tree
+vim file_script
+docker build -f file_script -t myubuntu
+docker build -f file_script -t myubuntu .
+docker images
+docker run --name u1 -f file_script -it myubuntu
+docker run --name u1 -it myubuntu
+docker rm -f u1
+docker container ls
+docker images
+vim apt-get update
+for i in git tree wget; do   apt-get install -y $i; done
+ls
+vim file_script
+docker build -f file_script -t myubuntu .
+vim file_script
+docker images
+docker system prune -af
+docker build -f file_script -t myubuntu .
+docker images
+docker system prune -af
+ls
+vim script.sh
+vim file_script
+docker build -f file_script -t myubuntu .
+vim file_script
+docker build -f file_script -t myubuntu .
+docker system prune -af
+docker build -f file_script -t myubuntu .
+docker images
+docker run --name u1 -it myubuntu
+docker rm -f u1
+vim file_script
+docker build -f file_script -t myubuntu .
+docker images
+docker run --name u1 -it  myubuntu
+ls
+vim file_jenkins
+docker build -f file_jenkins -t myubuntu .
+docker build -f file_jenkins -t myubuntu
+docker build -f file_jenkins -t myjenkins .
+vim file_jenkins
+docker build -f file_jenkins -t myjenkins .
+vim file_jenkins
+docker build -f file_jenkins -t myjenkins .
+docker images
+docker ps -a
+docker run --name j1 -it myenkins
+docker run --name j1 -it myjenkins
+docker rm -f $(docker ps aq)
+docker container ls
+docker images
+docker system prune -af
+docker images
+docker ps -a
+docker container ls
+ls
+vim image_ansible
+docker build -f image_ansible -t myubuntu
+docker build -f image_ansible -t myubuntu .
+docker images
+docker system prune -af
+vim image_ansible
+docker build -f image_ansible -t ansible .
+vim image_ansible
+docker images
+docker system prune af
+docker system prune -af
+docker system prune af
+docker images
+clear
+ls
+docker build -f image_ansible -t ansible
+docker build -f image_ansible -t ansible .
+docker images
+docker run --name a1 -it ansible
+docker system prune -af
+docker volume ls
+docker run --name n1 -d -P nginx
+docker run --name h1 -d -P httpd
+docker run --name t1 -d -P tomee
+docker volume ls
+docker run --name mydb -d -e MYSQL_ROOT_PASSWORD=mvbrothers mysql
+docker volume ls
+docker rm -f $(docker ps -aq)
+docker system prune -af
+docker volume prune -f
+ls
+mv file_jenkins image_jenkis
+ls
+mv file_ubuntu image_ubuntu
+ls
+cat file_script
+vim image_volumes
+docker build -f image_volumes -t mycentos
+docker build -f image_volumes -t mycentos .
+docker run --name c1 -it mycentos
+docker inspect c1
+docker rm -f c1
+cd /var/lib/docker/volumes/4b063b4de6865864d4a8fa63e54a422b305416d320b570dd11feff5b1aa41035/_data
+ls
+exit
