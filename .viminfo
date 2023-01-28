@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1674804432,,"wq"
+|2,0,1674888336,,"wq"
 :q!
-|2,0,1674801637,,"q!"
+|2,0,1674884984,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -33,230 +33,258 @@
 |3,0,36,0,1,0,1674663340," "
 
 # File marks:
-'0  4  8  ~/dockerimages/image_nginx
-|4,48,4,8,1674804432,"~/dockerimages/image_nginx"
-'1  4  11  ~/dockerfiles/image_volumes
-|4,49,4,11,1674804150,"~/dockerfiles/image_volumes"
-'2  5  10  ~/dockerfiles/image_ansible
-|4,50,5,10,1674803272,"~/dockerfiles/image_ansible"
-'3  5  22  ~/dockerfiles/image_ansible
-|4,51,5,22,1674803226,"~/dockerfiles/image_ansible"
-'4  6  29  ~/dockerfiles/image_ansible
-|4,52,6,29,1674803122,"~/dockerfiles/image_ansible"
-'5  6  29  ~/dockerfiles/image_ansible
-|4,53,6,29,1674803122,"~/dockerfiles/image_ansible"
-'6  6  29  ~/dockerfiles/image_ansible
-|4,54,6,29,1674803122,"~/dockerfiles/image_ansible"
-'7  6  29  ~/dockerfiles/image_ansible
-|4,55,6,29,1674803122,"~/dockerfiles/image_ansible"
-'8  1  0  ~/dockerfiles/file_jenkins
-|4,56,1,0,1674802723,"~/dockerfiles/file_jenkins"
-'9  4  61  ~/dockerfiles/file_jenkins
-|4,57,4,61,1674802672,"~/dockerfiles/file_jenkins"
+'0  19  20  ~/dockercompose/ci_cd.yml
+|4,48,19,20,1674888336,"~/dockercompose/ci_cd.yml"
+'1  19  20  ~/dockercompose/ci_cd.yml
+|4,49,19,20,1674886497,"~/dockercompose/ci_cd.yml"
+'2  19  20  ~/dockercompose/ci_cd.yml
+|4,50,19,20,1674885572,"~/dockercompose/ci_cd.yml"
+'3  19  20  ~/dockercompose/ci_cd.yml
+|4,51,19,20,1674885572,"~/dockercompose/ci_cd.yml"
+'4  8  0  ~/dockerimages/image_jenkins
+|4,52,8,0,1674885149,"~/dockerimages/image_jenkins"
+'5  1  0  ~/dockerimages/image_jenkis
+|4,53,1,0,1674884994,"~/dockerimages/image_jenkis"
+'6  1  0  ~/dockerimages/image_jenkins
+|4,54,1,0,1674884984,"~/dockerimages/image_jenkins"
+'7  1  0  ~/dockerimages/image_jenkins
+|4,55,1,0,1674884984,"~/dockerimages/image_jenkins"
+'8  5  26  ~/dockerimages/image_myubuntu
+|4,56,5,26,1674882289,"~/dockerimages/image_myubuntu"
+'9  5  26  ~/dockerimages/image_myubuntu
+|4,57,5,26,1674814958,"~/dockerimages/image_myubuntu"
 
 # Jumplist (newest first):
--'  4  8  ~/dockerimages/image_nginx
-|4,39,4,8,1674804432,"~/dockerimages/image_nginx"
--'  1  0  ~/dockerimages/image_nginx
-|4,39,1,0,1674804402,"~/dockerimages/image_nginx"
--'  4  11  ~/dockerfiles/image_volumes
-|4,39,4,11,1674804150,"~/dockerfiles/image_volumes"
--'  4  11  ~/dockerfiles/image_volumes
-|4,39,4,11,1674804150,"~/dockerfiles/image_volumes"
--'  1  0  ~/dockerfiles/image_volumes
-|4,39,1,0,1674804110,"~/dockerfiles/image_volumes"
--'  1  0  ~/dockerfiles/image_volumes
-|4,39,1,0,1674804110,"~/dockerfiles/image_volumes"
--'  5  10  ~/dockerfiles/image_ansible
-|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
--'  5  10  ~/dockerfiles/image_ansible
-|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
--'  5  10  ~/dockerfiles/image_ansible
-|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
--'  5  10  ~/dockerfiles/image_ansible
-|4,39,5,10,1674803272,"~/dockerfiles/image_ansible"
--'  5  22  ~/dockerfiles/image_ansible
-|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
--'  5  22  ~/dockerfiles/image_ansible
-|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
--'  5  22  ~/dockerfiles/image_ansible
-|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
--'  5  22  ~/dockerfiles/image_ansible
-|4,39,5,22,1674803226,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803208,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
--'  6  29  ~/dockerfiles/image_ansible
-|4,39,6,29,1674803122,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/image_ansible
-|4,39,1,0,1674802998,"~/dockerfiles/image_ansible"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  1  0  ~/dockerfiles/file_jenkins
-|4,39,1,0,1674802723,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
--'  4  61  ~/dockerfiles/file_jenkins
-|4,39,4,61,1674802688,"~/dockerfiles/file_jenkins"
+-'  19  20  ~/dockercompose/ci_cd.yml
+|4,39,19,20,1674888336,"~/dockercompose/ci_cd.yml"
+-'  19  20  ~/dockercompose/ci_cd.yml
+|4,39,19,20,1674886497,"~/dockercompose/ci_cd.yml"
+-'  19  20  ~/dockercompose/ci_cd.yml
+|4,39,19,20,1674885572,"~/dockercompose/ci_cd.yml"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  8  0  ~/dockerimages/image_jenkins
+|4,39,8,0,1674885149,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674885018,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkis
+|4,39,1,0,1674884994,"~/dockerimages/image_jenkis"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  1  0  ~/dockerimages/image_jenkins
+|4,39,1,0,1674884984,"~/dockerimages/image_jenkins"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
+-'  5  26  ~/dockerimages/image_myubuntu
+|4,39,5,26,1674882289,"~/dockerimages/image_myubuntu"
 
 # History of marks within files (newest to oldest):
+
+> ~/dockercompose/ci_cd.yml
+	*	1674888335	0
+	"	19	20
+	^	19	21
+	.	19	21
+	+	14	15
+	+	20	2
+	+	19	21
+
+> ~/dockerimages/image_jenkins
+	*	1674885146	0
+	"	8	0
+	^	8	0
+	.	7	28
+	+	5	18
+	+	7	28
+
+> ~/dockerimages/image_jenkis
+	*	1674884993	0
+	"	1	0
+
+> ~/dockerimages/image_myubuntu
+	*	1674882288	0
+	"	5	26
+	^	5	27
+	.	5	26
+	+	5	26
 
 > ~/dockerimages/image_nginx
 	*	1674804430	0
@@ -392,15 +420,6 @@
 	+	5	17
 	+	14	8
 	+	19	2
-
-> ~/dockercompose/ci_cd.yml
-	*	1674642893	0
-	"	19	20
-	^	19	21
-	.	19	21
-	+	14	15
-	+	20	2
-	+	19	21
 
 > ~/dockercompose/sql_wordpress.yml
 	*	1674642621	0

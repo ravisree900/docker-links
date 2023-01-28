@@ -563,3 +563,215 @@ docker rm -f c1
 cd /var/lib/docker/volumes/4b063b4de6865864d4a8fa63e54a422b305416d320b570dd11feff5b1aa41035/_data
 ls
 exit
+ls
+mv dockerfiles dockerimages
+ls
+cd dockerimages
+ls
+vim image_nginx
+docker build f image_nginx -t mynginx
+docker build f image_nginx -t mynginx .
+docker build -f image_nginx -t mynginx .
+docker images
+docker run --name n1 -d -P mynginx
+docker container ls
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker images
+docker system prune -af
+docker images
+docker container ls
+docker volume ls
+docker volume prune -f
+docker volumes
+docker volume
+docker volume ls
+cd ..
+git add .
+git commit -m "c"
+git push
+exit
+docker login
+ls
+cd dockerimages
+ls
+vim image_myubuntu
+docker built -f image_myubuntu -t ravisee900/myubuntu .
+docker build -f image_myubuntu -t ravisee900/myubuntu .
+docker images
+docker push ravisee900/myubuntu
+docker login
+docker push ravisee900/myubuntu
+ls
+cd dockerimages
+ls
+docker login
+docker images
+docker rm -f $(docker ps -a)
+docker system prune -af
+docker imahes
+docker images
+docker build -f image_myubuntu -t ravisree900/ubuntu .
+docker images
+docker push ravisree900/ubuntu
+docker build -f image_myubuntu -t ravisree900/myubuntu .
+docker images
+docker push ravisree900/myubuntu
+docker system prune -af 
+docker container ls
+docker images
+docker run --name r1 -d -p 5000:5000 registry
+docker container ls
+docker pull alpine
+docker tag alpine localhost:5000 /alpine
+docker tag alpine localhost:5000/alpine
+docker container ls
+docker images
+docker push localhost:5000/alpine
+cat localhost:5000/alpine
+cd localhost:5000/alpine
+docker image inspect localhost:5000/alpine
+aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 103067373324.dkr.ecr.ap-southeast-1.amazonaws.com
+apt-get update
+apt  install awscli
+aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 103067373324.dkr.ecr.ap-southeast-1.amazonaws.com
+docker build -t ubuntu .
+docker images
+docker build -t ubuntu18 .
+ls
+docker build -f image_myubuntu -t ubuntu18 .
+aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin 103067373324.dkr.ecr.ap-southeast-1.amazonaws.com
+docker build -t ubuntu18 .
+eixt
+exit
+docker images
+docker system prune -af
+docker conatainer ls
+docker container ls
+docker rm -f $(docker ps -aq)
+docker volume ls
+docker volume prune -f
+ls
+docker run --name j1 -d -P jenkins/jenkins
+docker images
+docker container ls
+docker exec -t j1 bash
+clear
+docker exec -t j1 bash
+ls
+cd dockerimages
+ls
+vim image_jenkins
+vim image_jenkis
+vim image_jenkins
+docker images
+docker build -f image_jenkins -t myjenkins .
+docker images
+docker container ls
+docker rm j1
+docker container rm j1
+docker rm -f j1
+docker container ls
+docker run --name j1 -d -P myjenkins
+docker container ls
+docker exec -t bash j1
+docker exec -t j1 bash
+clear
+cd ..
+ls
+cd dockercompose
+ls
+vim ci_cd.yml
+docker compose -f ci_cd.yml up -d
+docker images
+docker container ls
+ls
+cd dockercompose
+ls
+docker images
+docker system prune -af
+docker container ls
+docker ps -a
+docker volume ls
+docker volume prune -f
+vim ci_cd.yml
+docker compose -f ci_cd.yml up -d
+docker images
+docker container ls
+ls
+cd var
+cd ..
+ls
+cd /var
+ls
+cd ..
+cd dockercompose
+ls
+cd dockercompose
+exit
+ls
+cd dockercompose
+ls
+cd /var
+ls
+cd /jenkins_home
+cd lib
+ls
+cd .
+cd ..
+cd tmp
+ls
+clear
+cd ..
+cd .
+cd ..
+ls
+cd var
+ls
+cd lib
+ls
+cd 
+ls
+cd dockercompose
+ls
+docker images
+docker container ls
+docker container rm -f $(docker ps -aq)
+docker container ls
+docker system prune af
+docker system prune -af
+docker container ls
+docker volume ls
+docker volume prune -af
+docker run --name u1  -it ubuntu
+docker run --name h1 it httpd
+docker run --name h1 -it httpd
+docker images
+docker container ls
+docker run --name h1 -it httpd
+docker run --name h21 -it httpd
+docker rm -f $(docker ps -aq)
+docker system prune -aq
+docker system prune -af
+docker volume ls
+docker volume prune -f
+docker images
+docker container ls
+docker volume ls
+exit
+ls 
+cd dockerimages
+ls
+docker run --name u1 -it ubuntu
+docker run --name h1 -it httpd
+cd ..
+cd dockercompose
+ls
+docker system prune -af
+docker compose -f ci_cd.yml up -d
+vim ci_cd.yml
+docker exec -it myjenkins bash
+ls
+docker container ls
+docker exec -it dockercompose-myjenkins-1 bash
+exit
