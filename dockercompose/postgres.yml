@@ -1,6 +1,6 @@
 ---
 version: '3.8'
-Services:
+services:
    mydb:
       image: postgres
       environment:
@@ -14,4 +14,3 @@ Services:
       links:
          - mydb:mysql
 ...
-

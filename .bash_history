@@ -775,3 +775,192 @@ ls
 docker container ls
 docker exec -it dockercompose-myjenkins-1 bash
 exit
+docker images
+docker container ls
+docker system prune -af
+docker run --name -it ubuntu  .
+docker run --name u1 -it ubuntu  .
+docker images
+docker container ls
+docker rm ubuntu
+docker imahe rm ubuntu
+docker image rm ubuntu
+docker system prune -af
+docker run --name u1 -it ubuntu 
+docker run --name h1 -it httpd
+docker run --name h1 -it httpd .
+docker run --name h1 -it httpd
+docker images
+docker container ls
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker run --name u1 -it ubuntu
+docker run --name c1 -it centos
+docker run --name h1 -d -P httpd
+docker run --name t1 -d -P tomcat
+docker container ls
+docker exec -it h1 bash
+docker container ls
+docker attach u1
+docker container ls
+docker ps -a
+git add .
+git commit -m "d"
+git push
+exit
+ls
+mkdir dockerfiles
+ls 
+cd dockerfiles
+ls
+vim file_u_nginx
+docker build -t ubuntu
+docker build -t ubuntu .
+docker build -f file_u_nginx-t ubuntu .
+docker build -f file_u_nginx -t ubuntu .
+docker images
+docker run --name n1 -d -P ubuntu
+docker container ls
+docker ps -a
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker images
+docker system prune -af
+ls
+docker build -f file_u_nginx -t myubuntu .
+docker run --name n1 -d -P myubuntu
+docker container ls
+docker ps -a
+vim file_u_nginx
+docker system prune -af
+docker container ls
+docker rm -f $(docker ps -aq)
+docker ps -a
+docker build -f file_u_nginx -t myubuntu
+docker build -f file_u_nginx -t myubuntu .
+docker run --name n1 -d -p 8888:80 myubuntu
+docker container ls
+docker images
+vim file_u_jenkins
+docker build -f file_u_jenkins -t myjenkins .
+docker images
+docker run --name j1 -d -P -it myjenkins
+docker container ls
+docker rm -f j1
+docker container ls
+docker run --name j1 -it myjenkins
+clear
+ls
+cd dockerfiles
+ls
+vim file_cmd_nginx
+exit
+ls
+cd dockerfiles
+ls
+vim file_cmd_nginx
+ls
+rm -f file_cmd_nginx
+ls
+vim file_cmd_nginx
+ls
+vim file_cmd_nginx
+ls
+vim file_cmd_nginx
+ls
+rm -f file_cmd_nginx
+ls
+clear
+ls
+vim file_cmd_nginx
+ls
+vim file_cmd_nginx1
+docker images
+docker system prune -af
+docker container ls
+docker rm -f $(docker ps -aq)
+docker images
+docker container  ls
+docker system prune -af
+docker images
+clear
+ls
+vim file_cmd_nginx1
+docker build -f file_cmd_nginx1 -t myubuntu .
+docker run --name u1 -d -it myubuntu 
+nginx -v
+nginx -V
+echo path
+which nginx
+echo path
+echo $path
+which nginx
+echo $path
+docker images
+echo $PATH
+which nginx
+echo $PATH
+which nginx
+docker attach u1
+docker container ls
+docker ps -a
+docker rm -f $(docker ps -aq)
+docker images
+docker system prune -af
+docker volume ls
+docker volume prune -f
+docker images
+ls
+docker build -f file_cmd_nginx1 -t myubuntu
+docker build -f file_cmd_nginx1 -t myubuntu .
+docker images
+docker run --name r1 -d -p 7777:80 -it myubuntu
+docker container ls
+docker ps -a
+docker rm -f r1
+docker ps -a
+docker run --name u1 -it myubuntu
+exit
+ls
+cd dockerfiles
+ls
+docker images
+docker container ls
+docker ps -a
+docker rm -f j1
+vim file_u_jenkins
+docker build -f file_u_jenkins -t myjenkins1 .
+docker images
+docker run --name j1 -it myjenkins1 
+docker container ls
+docker ps -a
+docker rm -f j1
+docker run --name j1 -d -P -it myjenkins1 
+docker images
+docker container ls
+docker rm -f j1
+docker run --name j1 -d -p 6060:8080 -it myjenkins1 
+docker container ls
+docker exec -it j1 java -jar jenkins.war
+docker exec -it j1 java -jar jenkins.war bash
+ls
+docker exec -it j1 bash
+ls
+vim file_cmd_nginx
+docker images
+docker container ls
+docker system prune -af
+docker rm -f $(
+docker rm -f $(docker ps -aq)
+docker container ls
+docker images
+docker system prune -af
+docker images
+docker volume ls
+docker volume prune -af
+docker volume prune -f
+docker volume ls
+docker network ls
+docker node ls
+docker ps -a
+exit

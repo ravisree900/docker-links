@@ -1,6 +1,6 @@
 ---
 version: '3.8'
-sevices:
+services:
    mydb:
       image: postgres
       environment:
@@ -11,7 +11,10 @@ sevices:
       image: adminer
       ports:
          - 9090:8080
-      links:
-         - mydb:postgres
+networks:
+   default:
+      external:
+         name: ravindra
 ...
+
 
