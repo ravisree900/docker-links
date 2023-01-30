@@ -964,3 +964,226 @@ docker network ls
 docker node ls
 docker ps -a
 exit
+git add .
+git commit -m "d"
+git push
+exit
+docker imagess
+docker images
+docker container ls
+ls
+cd docker files
+ls
+cd dockerfiles
+ls
+vim file_u_jenkins
+docker build -it myubuntu .
+docker build -t myubuntu .
+docker system prune -af
+docker build -it myubuntu .
+docker build -t myubuntu .
+docker build -f file_u_jenkins -it myubuntu .
+docker build -f file_u_jenkins -t myubuntu .
+docker images
+docker container ls
+docker run --name j1 -d -it myubuntu
+docker container ls
+docker system prune -af
+docker rm -f $(docker ps -aq)
+docker container ls
+docker images
+docker system prune -af
+docker images
+ls
+docker network ls
+docke network create --driver bridge ravindra1
+docker network create --driver bridge ravindra1
+docker network ls
+docker network create --driver bridge ravindra2
+docker network ls
+docker run --name b1 -it --network ravindra1 busybox
+docker inspect b1
+docker run --name b2 -it --network ravindra1 busybox
+docker inspect c2
+docker inspect b2
+docker run --name b3 -it --network ravindra2 busybox
+docker inspect b3
+docker network connect ravindra2 b2
+docker attach b2
+docker attach b3
+docker attach b2
+docker attach b1
+docker images
+docker container ls
+docker volume ls
+docker system prune -af
+docker network create --driver bridge --subnet 10.0.0.0/24 ravindra1
+docker network ls
+docker run --name n1 -d -P --network ravindra1 nginx
+docker container ls
+ls
+cd ..
+ls
+vim postgress.yml
+rm -f postgres.yml
+ls
+rm -rf postgres.yml
+ls
+rm postgres.yml
+rm -rf postgres.yml
+ls
+docker compose
+cd dockercompose
+ls
+vim postgress.yml
+vim postgres.yml 
+vim postgres2.yml 
+docker compose -f postgres2.yml up -d
+vim postgres2.yml 
+docker compose -f postgres2.yml up -d
+ls
+dockerps -a
+docker ps -a
+vim postgres2.yml
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim postgres.yml
+docker compose -f postgres.yml up -d
+vim postgres2.yml
+docker compose -f postgres2.yml up -d
+docker network ls
+docker compose -f postgres2.yml down
+docker container ls
+docker ps a
+docker ps -a
+docker rm -f $(docker ps -a)
+docker images
+docker rm postgres
+docker system prune -af
+ls
+docker network ls
+docker network create --driver bridge ravindra
+docker network ls
+vim postgres2.yml
+docker compose -f postgres2.yml up -d
+docker container ls
+docker inspect 2035010f6bb3
+docker rm -f $(docker ps -aq)
+docker images
+docker system prune -af
+docker network create --driver bridge --subnet 10.0.0.0/24 ravindra
+clear
+docker network ls
+docker compose -f postgres2.yml up -d
+docker containe ls
+docker container ls
+docker inspect 765e6614ad5e
+docker compose -f postgres2.yml down
+ls
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+clear
+docker container ls
+docker inspect 2e8ec4aaabd0 
+docker inspect 4aacf5346cf4
+docker compose down
+docker compose -f jenkins.yml down
+docker images
+docker network ls
+ls
+cd ..
+mkdir dockernetworks
+ls
+cd dockernetworks
+ls
+cd ..
+cd dockercompose
+ls
+cp jenkins.yml /dockernetworks
+cd ..
+cd dockernetworks
+ls
+cd  /dockernetworks
+cd ..
+cd  /dockernetworks
+cd dockercompose
+cp jenkins.yml dockernetworks
+cd ..
+cd dockernetworks
+ls
+cd ..
+cd dockercompose
+ls
+vim jenkins.yml
+cd ..
+cd dockernetworks
+vim jenkins.yml
+docker compose -f jenkins.yml up -d
+ls
+docker container ls
+cd ..
+cd dockercompose
+ls
+vim postgres2.yml
+cd ..
+cd dockernetworks
+ls
+vim postgres.yml
+docker compose -f postgres.yml up -d
+docker container ls
+docker rm -f $(docker ps -aq)
+docker images
+docker system prune -af
+docker images
+docker container ls
+cd ..
+cd dockercompose
+ls
+rm -f jenkins.yml
+ls
+rm -f postgres2.yml
+ls
+cd ..
+clear
+cd dockercompose
+ls
+vim dockernetworks
+rm -f dockernetworks
+ls
+vim dockerfile
+vim dockerfile.yml
+docker compose -f dockerfile up -d
+vim dockerfile.yml
+docker compose -f dockerfile up -d
+vim dockerfile.yml
+docker compose -f dockerfile up -d
+wq
+docker compose -f dockerfile up -d
+vim dockerfile.yml
+docker compose -f dockerfile up -d
+clea
+clear
+vim dockerfile.yml
+docker compose -f dockerfile.yml up -d
+docker container ls
+ls
+cd dockervolumes
+ls
+vim mysql_volumes.yml
+docker volume ls
+docker compose -f mysql_volumes.yml up -d
+docker volume ls
+vim mysql_volumes.yml
+docker compose -f mysql_volumes.yml up -d
+vim mysql_volumes.yml
+exit
